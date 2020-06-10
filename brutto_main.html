@@ -1,0 +1,583 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style/brutto_main.css">
+<link rel="shortcut icon" type="image/png" href="img/mini_logo.png">
+<link href="//db.onlinewebfonts.com/c/596ad608a41bd28960c777827cdd6af1?family=Apple+Chancery" rel="stylesheet" type="text/css"/>
+<script src="https://kit.fontawesome.com/0fd27e92ca.js" crossorigin="anonymous"></script>
+<title>Brutto</title>
+</head>
+
+<body>
+	<nav id="first_nav">
+		<a Id="store_finder">Store finder</a>
+		<a Id="help">Help</a>
+		<a Id="register">Register</a>
+		<a Id="sign_in">Sign in</a>
+	</nav>
+	<nav id="second_nav">
+		<a href="brutto_main.html"><img id="logo" src="img/logo.png" alt="brutto logo"></a>
+		
+		<div class="search-container">
+    		
+      		<input id="search" onkeyup="filter()" type="text"  placeholder="Search Groceries . . .">
+			<button id="search_button" type="submit"><i class="fa fa-search"></i></button>
+  		</div>
+		<div id="nav_buttons_container">
+			<button class="second_nav_buttons">My Delivery <i class="fas fa-truck"></i></button>
+			<button class="second_nav_buttons">DKK 0.00 <i class="fas fa-shopping-cart"  >  0</i></button>
+		</div>
+	</nav>
+	<div class="content">
+		<div id="first">
+			<img src="img/truck.png" alt="delivery icon">
+			<div id="first_text">
+				<p id="rod">Always Free Delivery</p>
+				<pre id="t"> Choose the Time and The day that suits you!</pre>
+			</div>
+			<div id="btn">
+				<button id="E-catalogue"> <a href="catalog.html">E-catalogue</a></button>
+				<button id="SALE"><a href="brutto_main.html#sales_products" >% SALE</a></button>
+				<button id="Delivery">
+					<img src="img/!.png" alt="!">
+					<div id="delivery_text">
+						<p>DELIVERY</p>
+						<p>Times</p>
+					</div>		
+				</button>
+			</div>
+		</div>
+		<div id="filter">
+		<span id="Food">Food</span>
+		<span id="Fresh">100% Fresh</span>
+		<span id="Local Farmers Market"><pre>Local
+Farmers
+Market</pre></span>
+		<span id="Organic/Eco">Organic/Eco</span>
+		<span id="For Babies">For Babies</span>
+		<span id="Beauty">Beauty</span>
+		<span id="Cleaning">Cleaning</span>
+		<span id="For Pets">For Pets</span>
+		<span id="new">New!</span>
+		</div>
+		
+		<div id="get_rid"> 
+			<div id="add">
+				<div id="add_bg">
+					<div id="imgs">
+					<a href="product_page.html"><img id="salami" src="img/salami.png" alt="salami"></a>
+					<span class="circle">-39%</span>
+				</div>
+				
+				
+				
+					<div id="imgs_text">
+					<div id="promotion_text">
+						<div id="i_text">
+							<p id="t1"> Fresh Red Salami</p> 
+							<p id="t2">12.99 </p> 
+							<p id="t3">Only 7.99 kr.</p>
+						</div>
+					</div>
+					<img id="text_img" src="img/yellow_cart.png" alt="cart">
+								
+				</div>	
+				
+					<div id="x">
+					<p id="add_text">Help us finish the song. Share a post with a dish 
+						of the day and hastag <a href="video_page.html" ><b >#SALAMIEVERYDAY </b></a>on 
+						Your Facebook or Instagram and You can win 
+						500 kr. cupon to shop in Brutto.dk</p>
+					<img id="Img" src="img/girl.png" alt="girl">
+					<div id="add_left_text">
+						<p>“We believe That everybody should be able to afford good quality.”</p>
+						<button>Shop Now</button>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="items_container">
+			<div class="Items_on_Sale" id="sales_products">
+				<h2 id="h">Items on Sale</h2>
+				<div class="items_on_sale" >
+					<div class="items ">
+						<div class="xx">
+							<div class="circle_1"> 
+								<p class="t1"> 12.99</p> 
+								<p class="t2">7.99 kr.</p> 
+								<p class="t3">-39%</p>
+							</div>
+						<a href="product_page.html">
+							<img src="img/salami.png" alt="salami">
+						</a>
+						</div>
+						<a href="product_page.html">
+							<div class="down">
+								<p>Fresh Red Salami Budget 200 gr</p>
+								<img src="img/yellow_cart.png" alt="cart" >
+							</div>
+						</a>
+					</div>
+					<div class="items ">
+						<div class="xx">
+							<div class="circle_1"> 
+								<p class="t1"> 50.00</p> 
+								<p class="t2">35 kr.</p> 
+								<p class="t3">-30%</p>
+							</div>
+							<img src="img/ariel.png" alt="ariel">
+						</div>
+						<div class="down">
+							<p>Ariel Concentrate for bright colors 4l</p>
+							<img src="img/yellow_cart.png" alt="cart" >
+						</div>
+					</div>
+					<div class="items ">
+						<div class="xx">
+							<div class="circle_1"> 
+								<p class="t1"> 15.99</p> 
+								<p class="t2">11 kr.</p> 
+								<p class="t3">-30%</p>
+							</div>
+							<img src="img/bread.png" alt="breag">
+							<span class="new1">NEW</span>
+						</div>
+						<div class="down">
+							<p>Fresh Bread Balls 6 psc</p>
+							<img src="img/yellow_cart.png" alt="cart" >
+						</div>
+					</div>
+					<div class="items ">
+						<div class="xx">
+							<div class="circle_1"> 
+								<p class="t1"> 12.99</p> 
+								<p class="t2">7.99 kr.</p> 
+								<p class="t3">-39%</p>
+							</div>
+							<img src="img/fairy.png" alt="fairy">
+						</div>
+						<div class="down">
+							<p>Fairy dishwashing liquid  with lemon 500ml</p>
+							<img src="img/yellow_cart.png" alt="cart" >
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="Items_on_Sale">
+				<h2 id="hh">100% Fresh</h2>
+				<div class="items_on_sale">
+					<div class="items ">
+						<div class="xx">
+							<div class="circle_2"> 
+								<p class="t2">20 kr.</p> 
+							</div>
+							<img src="img/strawberry.png" alt="strawberry">
+						</div>
+						<div class="down">
+							<p>Fresh Strawberries Spain 250 gr</p>
+							<img src="img/yellow_cart.png" alt="cart" >
+						</div>
+					</div>
+					<div class="items ">
+						<div class="xx">
+							<div class="circle_2"> 
+								<p class="t2">12 kr.</p> 
+							</div>
+							<img src="img/pomegranat.png" alt="pomegranat">
+							<span class="new1">NEW</span>
+						</div>
+						<div class="down">
+							<p>Pommegranat Fruit 1 psc</p>
+							<img src="img/yellow_cart.png" alt="cart" >
+						</div>
+					</div>
+					<div class="items ">
+						<div class="xx">
+							<div class="circle_2"> 
+								<p class="t2">25 kr.</p> 
+							</div>
+							<img src="img/blueberry.png" alt="blueberry">
+						</div>
+						<div class="down">
+							<p>Fresh Blueberries Denmark 300 gr</p>
+							<img src="img/yellow_cart.png" alt="cart" >
+						</div>
+					</div>
+					<div class="items ">
+						<div class="xx">
+							<div class="circle_2"> 
+								<p class="t2">22 kr.</p> 
+							</div>
+							<img src="img/orange.png" alt="orange">
+						</div>
+						<div class="down">
+							<p>Fresh Oranges Brazil 1kg</p>
+							<img src="img/yellow_cart.png" alt="cart" >
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="Items_on_Sale">
+				<h2 id="hhh">Local Farmers Market</h2>
+				<div class="items_on_sale">
+					<div class="items">
+						<div class="xx">
+							<div class="circle_2"> 
+								<p class="t2">7 kr.</p> 
+							</div>
+							<img src="img/lettuce.png" alt="lettuce">
+							<span class="new1">NEW</span>
+						</div>
+						<div class="down">
+							<p>Romaine Lettuce Denmark 1 psc</p>
+							<img src="img/yellow_cart.png" alt="cart" >
+						</div>
+					</div>
+					<div class="items">
+						<div class="xx">
+							<div class="circle_2"> 
+								<p class="t2">25 kr.</p> 
+							</div>
+							<img src="img/blueberry.png" alt="blueberry">
+						</div>
+						<div class="down">
+							<p>Fresh Blueberries Denmark 300 gr</p>
+							<img src="img/yellow_cart.png" alt="cart" >
+						</div>
+					</div>
+					<div class="items">
+						<div class="xx">
+							<div class="circle_2"> 
+								<p class="t2">25 kr.</p> 
+							</div>
+							<img src="img/tomatoes.png" alt="tomatoes">
+						</div>
+						<div class="down">
+							<p>Fresh Tomatoes Denmark 1kg</p>
+							<img src="img/yellow_cart.png" alt="cart" >
+						</div>
+					</div>
+					<div class="items">
+						<div class="xx">
+							<div class="circle_2"> 
+								<p class="t2">15 kr.</p> 
+							</div>
+							<img src="img/cucumber.png" alt="cucumber">
+
+						</div>
+						<div class="down">
+							<p>Fresh Cucumbers Denmark 1kg</p>
+							<img src="img/yellow_cart.png" alt="cart" >
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	  	</div>
+		
+		<div class="hidden" >
+			<div class="hidden_items" >
+				<div class=" filter items1 Fresh Red Salami Budget 200 gr sale Food">
+					<div class="xx">
+						<div class="circle_1"> 
+							<p class="t1"> 12.99</p> 
+							<p class="t2">7.99 kr.</p> 
+							<p class="t3">-39%</p>
+						</div>
+					<a href="product_page.html">
+						<img src="img/salami.png" alt="salami">
+					</a>
+					</div>
+					<a href="product_page.html">
+						<div class="down">
+							<p>Fresh Red Salami Budget 200 gr</p>
+							<img src="img/yellow_cart.png" alt="cart" >
+						</div>
+					</a>
+				</div>
+				<div class="filter items1 Ariel Concentrate for bright colors 4l sale  Cleaning">
+					<div class="xx">
+						<div class="circle_1"> 
+							<p class="t1"> 50.00</p> 
+							<p class="t2">35 kr.</p> 
+							<p class="t3">-30%</p>
+						</div>
+						<img src="img/ariel.png" alt="ariel">
+					</div>
+					<div class="down">
+						<p>Ariel Concentrate for bright colors 4l</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1 Fresh Bread Balls 6 psc new sale Food">
+					<div class="xx">
+						<div class="circle_1"> 
+							<p class="t1"> 15.99</p> 
+							<p class="t2">11 kr.</p> 
+							<p class="t3">-30%</p>
+						</div>
+						<img src="img/bread.png" alt="breag">
+						<span class="new1">NEW</span>
+					</div>
+					<div class="down">
+						<p>Fresh Bread Balls 6 psc</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1 Fairy dishwashing liquid  with lemon 500ml sale Cleaning">
+					<div class="xx">
+						<div class="circle_1"> 
+							<p class="t1"> 12.99</p> 
+							<p class="t2">7.99 kr.</p> 
+							<p class="t3">-39%</p>
+						</div>
+						<img src="img/fairy.png" alt="fairy">
+					</div>
+					<div class="down">
+						<p>Fairy dishwashing liquid  with lemon 500ml</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				
+				<div class="filter items1 Fresh Strawberries Spain 250 gr Food Organic/Eco">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">20 kr.</p> 
+						</div>
+						<img src="img/strawberry.png" alt="strawberry">
+					</div>
+					<div class="down">
+						<p>Fresh Strawberries Spain 250 gr</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1 Pommegranat Fruit 1 psc fresh new Food Organic/Eco">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">12 kr.</p> 
+						</div>
+						<img src="img/pomegranat.png" alt="pomegranat">
+						<span class="new1">NEW</span>
+					</div>
+					<div class="down">
+						<p>Pommegranat Fruit 1 psc</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1 Fresh Blueberries Denmark 300 gr Food Organic/Eco">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">25 kr.</p> 
+						</div>
+						<img src="img/blueberry.png" alt="blueberry">
+					</div>
+					<div class="down">
+						<p>Fresh Blueberries Denmark 300 gr</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1 Fresh Oranges Brazil 1kg Food Organic/Eco">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">22 kr.</p> 
+						</div>
+						<img src="img/orange.png" alt="orange">
+					</div>
+					<div class="down">
+						<p>Fresh Oranges Brazil 1kg</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				
+				<div class="filter items1 Romaine Lettuce Denmark 1 psc new Local Farmers Market Food Organic/Eco">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">7 kr.</p> 
+						</div>
+						<img src="img/lettuce.png" alt="lettuce">
+						<span class="new1">NEW</span>
+					</div>
+					<div class="down">
+						<p>Romaine Lettuce Denmark 1 psc</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1 Fresh Blueberries Denmark 300 gr Local Farmers Market Food Organic/Eco">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">25 kr.</p> 
+						</div>
+						<img src="img/blueberry.png" alt="blueberry">
+					</div>
+					<div class="down">
+						<p>Fresh Blueberries Denmark 300 gr</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1 Local Farmers Market Fresh Tomatoes Denmark 1kg Food Organic/Eco">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">25 kr.</p> 
+						</div>
+						<img src="img/tomatoes.png" alt="tomatoes">
+					</div>
+					<div class="down">
+						<p>Fresh Tomatoes Denmark 1kg</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1 Local Farmers Market Fresh Cucumbers Denmark 1kg Food Organic/Eco">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">15 kr.</p> 
+						</div>
+						<img src="img/cucumber.png" alt="cucumber">
+						
+					</div>
+					<div class="down">
+						<p>Fresh Cucumbers Denmark 1kg</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				
+				<div class="filter items1 For BabiesOrganic/Eco Gerber, Organic Baby Food (99 g)">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">14 kr.</p> 
+						</div>
+						<img src="img/gerber.png" alt="gerber">
+						
+					</div>
+					<div class="down">
+						<p>Gerber, Organic Baby Food (99 g)</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1 Beauty For Babies Baby Shampoo 200ml Cleaning">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">12 kr.</p> 
+						</div>
+						<img src="img/shampoo.png" alt="shampoo">
+						
+					</div>
+					<div class="down">
+						<p>Baby Shampoo 200ml</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1 For Babies Baby Hipp biologisk grød multi korn 400 gr Food">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">69 kr.</p> 
+						</div>
+						<img src="img/hipp.png" alt="Hipp biologisk">
+						
+					</div>
+					<div class="down">
+						<p>Hipp biologisk grød multi korn 400 gr</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1 For Babies Teethe & Play Teether Keys new">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">49 kr.</p> 
+						</div>
+						<img src="img/toy.png" alt="Teethe & Play Teether Keys">
+						<span class="new1">NEW</span>
+					</div>
+					<div class="down">
+						<p>Teethe and Play Teether Keys</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				
+				<div class="filter items1 For Pets Pedigree Dentastix - Daily Oral Care">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">12 kr.</p> 
+						</div>
+						<img src="img/denta_stix.png" alt="dentastix">
+						
+					</div>
+					<div class="down">
+						<p>Pedigree Dentastix - Daily Oral Care</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1  Food For Pets Felix As Good As It Looks 24 x 100g">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">35 kr.</p> 
+						</div>
+						<img src="img/felix.png" alt="felix">
+						
+					</div>
+					<div class="down">
+						<p>Felix As Good As It Looks 24 x 100g</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1  Food For Pets FRoyal Canin Kitten 300g new">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">28 kr.</p> 
+						</div>
+						<img src="img/royal.png" alt="Royal Canin Kitten">
+						<span class="new1">NEW</span>
+					</div>
+					<div class="down">
+						<p>Royal Canin Kitten 300g</p>
+						<img  src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1  Face & Body Glitter - NYX Beauty">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">48 kr.</p> 
+						</div>
+						<img src="img/glitter.png" alt="Face & Body Glitter - NYX">
+						
+					</div>
+					<div class="down">
+						<p>Face and Body Glitter - NYX</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+			</div>	
+		</div>
+		
+		
+		<div id="footer_box">
+			<div id="info">
+				<span>How to shop?</span>
+				<span>Delivery</span>
+				<span>#SalamiEveryDay</span>
+				<span>Contact Us</span>
+				<span>About Us</span>
+			</div>
+			<div id="green_box">
+				<div id="footer">
+					<p>Subscribe to our Newsletter and Get the latest news in Your E-mail!</p>
+					<input type="email" placeholder="Your E-mail" >
+					<div id="icons">
+						<i class="fab fa-facebook"></i>
+						<i class="fab fa-instagram"></i>
+						<i class="fab fa-twitter"></i>
+						<i class="fab fa-pinterest"></i>
+						<i class="fab fa-youtube"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="last">
+			<i class="fab fa-cc-mastercard"></i>
+			<i class="fab fa-cc-visa"></i>
+		</div>
+	</div>
+	<script  src="js/brutto.js"></script>
+</body>
+</html>

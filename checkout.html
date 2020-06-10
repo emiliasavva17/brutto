@@ -1,0 +1,420 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style/brutto_main.css">
+<link rel="shortcut icon" type="image/png" href="img/mini_logo.png">
+<link href="//db.onlinewebfonts.com/c/596ad608a41bd28960c777827cdd6af1?family=Apple+Chancery" rel="stylesheet" type="text/css"/>
+<script src="https://kit.fontawesome.com/0fd27e92ca.js" crossorigin="anonymous"></script>
+<title>Payment</title>
+</head>
+
+<body>
+	<nav id="first_nav">
+		<a Id="store_finder">Store finder</a>
+		<a Id="help">Help</a>
+		<a Id="register">Register</a>
+		<a Id="sign_in">Sign in</a>
+	</nav>
+	<nav id="second_nav">
+		<a href="brutto_main.html"><img id="logo" src="img/logo.png" alt="brutto logo"></a>
+		
+		<div class="search-container">
+    		
+      		<input id="search" onkeyup="filter()" type="text"  placeholder="Search Groceries . . .">
+			<button id="search_button" type="submit"><i class="fa fa-search"></i></button>
+  		</div>
+		<div id="nav_buttons_container">
+			<button class="second_nav_buttons">My Delivery <i class="fas fa-truck"></i></button>
+			<button class="second_nav_buttons">DKK 0.00 <i class="fas fa-shopping-cart"  >  0</i></button>
+		</div>
+	</nav>
+	<div class="content">
+		<div id="first">
+			<img src="img/truck.png" alt="delivery icon">
+			<div id="first_text">
+				<p id="rod">Always Free Delivery</p>
+				<pre id="t"> Choose the Time and The day that suits you!</pre>
+			</div>
+			<div id="btn">
+				<button id="E-catalogue"> <a href="catalog.html">E-catalogue</a></button>
+				<button id="SALE"><a href="brutto_main.html#sales_products" >% SALE</a></button>
+				<button id="Delivery">
+					<img src="img/!.png" alt="!">
+					<div id="delivery_text">
+						<p>DELIVERY</p>
+						<p>Times</p>
+					</div>		
+				</button>
+			</div>
+		</div>
+		<div id="filter">
+		<span id="Food">Food</span>
+		<span id="Fresh">100% Fresh</span>
+		<span id="Local Farmers Market"><pre>Local
+Farmers
+Market</pre></span>
+		<span id="Organic/Eco">Organic/Eco</span>
+		<span id="For Babies">For Babies</span>
+		<span id="Beauty">Beauty</span>
+		<span id="Cleaning">Cleaning</span>
+		<span id="For Pets">For Pets</span>
+		<span id="new">New!</span>
+		</div>
+		
+		<div id="get_rid"> 	
+			<p id="small_text" style="margin-left: 2%">Payment</p>
+			<a href="product_page.html"><button style="margin-top: 15px;
+				margin-left: 2%" id="back"> Back</button></a>
+			
+			
+			
+			
+			<div id="payment_container">
+				<h1> Payment</h1>
+				<p>Choose payment method below</p>
+				<div id="payment_mothods">
+					<div id="visa_container">
+						<img src="img/visa.png" alt="visa">
+					</div>
+					<div id="mastercard_container">
+						<img src="img/mastercard.png" alt="mastercard">
+					</div>
+					<div id="mobilepay_container">
+						<img src="img/mobilepay.png" alt="mobilepay">
+					</div>
+					<div id="applepay_container">
+						<img src="img/applepay.png" alt="applepay">
+					</div>
+					<div id="gpay_container">
+						<img src="img/gpay.png" alt="googlepay">
+					</div>
+					<div id="paypal_container">
+						<img src="img/paypal.png" alt="paypal">
+					</div>
+					<div id="amazonpay_container">
+						<img src="img/amazonpay.png" alt="amazonpay">
+					</div>
+				</div>
+				<div id="billind_and_card_info_container">
+					<div id="billing_info">
+						<h2>Billing Info</h2>
+						<br>
+						<label for="fullName">FULL NAME</label><br>
+						<input type="text" id="fullName" name="fullName" placeholder="John Doe">
+						
+						<label for="adress">ADDRESS</label><br>
+						<input type="text" id="adress" name="adress" placeholder="497 Evergreen Rd.">
+						
+						<div id="city_and_zip">
+							<div class="element">
+								<label for="city">CITY</label><br>
+								<input type="text" id="city" name="city" placeholder="Roseville">
+							</div>
+							<div class="element">
+								<label for="zip">ZIP CODE</label><br>
+								<input type="text" id="zip" name="zip" placeholder="95673">
+							</div>
+						</div>
+						<label for="country">COUNTRY</label><br>
+						<select id="country" name="country">
+							<option value="dk">Denmark</option>
+							<option value="usa">United States</option>
+							<option value="de">Germany</option>
+						</select>
+					</div>
+				  
+					<div id="card_info">
+					<h2>Credit Card Info</h2>
+					<br>
+					<label for="cardnr">CARD NUMBER</label><br>
+					<input type="text" id="cardnr" name="cardnr" placeholder="1234   5678   3456   2456">
+
+					<label for="cardholder">CARDHOLDER NAME</label>
+					<br>
+					<input type="text" id="cardholder" name="cardholder" placeholder="John Doe">
+
+					<label for="expire_date">EXPIRE DATE</label><br>
+					<input type="text" id="expire_date" name="expire_date" placeholder="05   /   21">
+					<label for="cvv">CVV</label><br>
+					<input type="text" id="cvv" name="cvv" placeholder="XXX">
+			
+				</div>
+			  	</div>
+				
+				<div id="continue">
+					<a href="continue.html"><button>Continue</button></a>
+				</div>
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			<div class="Items_on_Sale">
+			<h2>Local Farmers Market</h2>
+			<div class="items_on_sale">
+				<div class="items">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">7 kr.</p> 
+						</div>
+						<img src="img/lettuce.png" alt="lettuce">
+						<span class="new1">NEW</span>
+					</div>
+					<div class="down">
+						<p>Romaine Lettuce Denmark 1 psc</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="items">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">25 kr.</p> 
+						</div>
+						<img src="img/blueberry.png" alt="blueberry">
+					</div>
+					<div class="down">
+						<p>Fresh Blueberries Denmark 300 gr</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="items">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">25 kr.</p> 
+						</div>
+						<img src="img/tomatoes.png" alt="tomatoes">
+					</div>
+					<div class="down">
+						<p>Fresh Tomatoes Denmark 1kg</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="items">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">15 kr.</p> 
+						</div>
+						<img src="img/cucumber.png" alt="cucumber">
+						
+					</div>
+					<div class="down">
+						<p>Fresh Cucumbers Denmark 1kg</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="hidden" >
+			<div class="hidden_items" >
+				<div class=" filter items1 Fresh Red Salami Budget 200 gr sale Food">
+					<div class="xx">
+						<div class="circle_1"> 
+							<p class="t1"> 12.99</p> 
+							<p class="t2">7.99 kr.</p> 
+							<p class="t3">-39%</p>
+						</div>
+					<a href="product_page.html">
+						<img src="img/salami.png" alt="salami">
+					</a>
+					</div>
+					<a href="product_page.html">
+						<div class="down">
+							<p>Fresh Red Salami Budget 200 gr</p>
+							<img src="img/yellow_cart.png" alt="cart" >
+						</div>
+					</a>
+				</div>
+				<div class="filter items1 Ariel Concentrate for bright colors 4l sale  Cleaning">
+					<div class="xx">
+						<div class="circle_1"> 
+							<p class="t1"> 50.00</p> 
+							<p class="t2">35 kr.</p> 
+							<p class="t3">-30%</p>
+						</div>
+						<img src="img/ariel.png" alt="ariel">
+					</div>
+					<div class="down">
+						<p>Ariel Concentrate for bright colors 4l</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1 Fresh Bread Balls 6 psc new sale Food">
+					<div class="xx">
+						<div class="circle_1"> 
+							<p class="t1"> 15.99</p> 
+							<p class="t2">11 kr.</p> 
+							<p class="t3">-30%</p>
+						</div>
+						<img src="img/bread.png" alt="breag">
+						<span class="new1">NEW</span>
+					</div>
+					<div class="down">
+						<p>Fresh Bread Balls 6 psc</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1 Fairy dishwashing liquid  with lemon 500ml sale Cleaning">
+					<div class="xx">
+						<div class="circle_1"> 
+							<p class="t1"> 12.99</p> 
+							<p class="t2">7.99 kr.</p> 
+							<p class="t3">-39%</p>
+						</div>
+						<img src="img/fairy.png" alt="fairy">
+					</div>
+					<div class="down">
+						<p>Fairy dishwashing liquid  with lemon 500ml</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				
+				<div class="filter items1 Fresh Strawberries Spain 250 gr Food Organic/Eco">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">20 kr.</p> 
+						</div>
+						<img src="img/strawberry.png" alt="strawberry">
+					</div>
+					<div class="down">
+						<p>Fresh Strawberries Spain 250 gr</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1 Pommegranat Fruit 1 psc fresh new Food Organic/Eco">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">12 kr.</p> 
+						</div>
+						<img src="img/pomegranat.png" alt="pomegranat">
+						<span class="new1">NEW</span>
+					</div>
+					<div class="down">
+						<p>Pommegranat Fruit 1 psc</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1 Fresh Blueberries Denmark 300 gr Food Organic/Eco">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">25 kr.</p> 
+						</div>
+						<img src="img/blueberry.png" alt="blueberry">
+					</div>
+					<div class="down">
+						<p>Fresh Blueberries Denmark 300 gr</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1 Fresh Oranges Brazil 1kg Food Organic/Eco">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">22 kr.</p> 
+						</div>
+						<img src="img/orange.png" alt="orange">
+					</div>
+					<div class="down">
+						<p>Fresh Oranges Brazil 1kg</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				
+				<div class="filter items1 Romaine Lettuce Denmark 1 psc new Local Farmers Market Food Organic/Eco">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">7 kr.</p> 
+						</div>
+						<img src="img/lettuce.png" alt="lettuce">
+						<span class="new1">NEW</span>
+					</div>
+					<div class="down">
+						<p>Romaine Lettuce Denmark 1 psc</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1 Fresh Blueberries Denmark 300 gr Local Farmers Market Food Organic/Eco">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">25 kr.</p> 
+						</div>
+						<img src="img/blueberry.png" alt="blueberry">
+					</div>
+					<div class="down">
+						<p>Fresh Blueberries Denmark 300 gr</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1 Local Farmers Market Fresh Tomatoes Denmark 1kg Food Organic/Eco">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">25 kr.</p> 
+						</div>
+						<img src="img/tomatoes.png" alt="tomatoes">
+					</div>
+					<div class="down">
+						<p>Fresh Tomatoes Denmark 1kg</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+				<div class="filter items1 Local Farmers Market Fresh Cucumbers Denmark 1kg Food Organic/Eco">
+					<div class="xx">
+						<div class="circle_2"> 
+							<p class="t2">15 kr.</p> 
+						</div>
+						<img src="img/cucumber.png" alt="cucumber">
+						
+					</div>
+					<div class="down">
+						<p>Fresh Cucumbers Denmark 1kg</p>
+						<img src="img/yellow_cart.png" alt="cart" >
+					</div>
+				</div>
+			</div>	
+		</div>
+		
+		<div id="footer_box">
+			<div id="info2">
+				<span>How to shop?</span>
+				<span>Delivery</span>
+				<span>#SalamiEveryDay</span>
+				<span>Contact Us</span>
+				<span>About Us</span>
+			</div>
+			<div id="green_box">
+				<div id="footer">
+					<p>Subscribe to our Newsletter and Get the latest news in Your E-mail!</p>
+					<input type="email" placeholder="Your E-mail" >
+					<div id="icons">
+						<i class="fab fa-facebook"></i>
+						<i class="fab fa-instagram"></i>
+						<i class="fab fa-twitter"></i>
+						<i class="fab fa-pinterest"></i>
+						<i class="fab fa-youtube"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="last">
+			<i class="fab fa-cc-mastercard"></i>
+			<i class="fab fa-cc-visa"></i>
+		</div>
+	</div>
+
+	
+	<script  src="js/brutto.js"></script>
+</body>
+</html>
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+</body>
+</html>
