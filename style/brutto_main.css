@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;display=swap');
+@import url('http://fonts.googleapis.com/css2?family=Montserrat:wght@100;display=swap');
 
 
 body{
@@ -11,6 +11,9 @@ body{
 	background-attachment: fixed;
  	background-size: cover;
 	background-position: center;
+}
+a{
+	cursor: pointer;
 }
 #first_nav{
 	display: flex;
@@ -287,6 +290,7 @@ body{
 	
 }
 #filter span{
+	cursor: pointer;
 	background-color: #E8CA16;
 	color: black;
 	font-family: 'Montserrat', sans-serif;
@@ -757,6 +761,7 @@ body{
 	color: red;
 }
 #back{
+	cursor: pointer;
 	font-size: 17px;
 	font-family:"Montserrat", sans-serif;
 	font-weight: 600;
@@ -965,6 +970,7 @@ padding-top: 10px;
 	justify-content: center;
 }
 #b button{
+	cursor: pointer;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	padding-top: 10px;
@@ -1082,6 +1088,7 @@ padding-top: 10px;
 	object-fit: contain;
 }
 #visa_container{
+	cursor: pointer;
 	height: 81px;
 	width: 106px;
 	display: flex;
@@ -1091,6 +1098,7 @@ padding-top: 10px;
 	border-radius: 15px;
 }
 #mastercard_container{
+	cursor: pointer;
 	height: 81px;
 	width: 106px;
 	display: flex;
@@ -1099,6 +1107,7 @@ padding-top: 10px;
 	border-radius: 15px;
 }
 #mobilepay_container{
+	cursor: pointer;
 	height: 81px;
 	width: 106px;
 	display: flex;
@@ -1107,6 +1116,7 @@ padding-top: 10px;
 	border-radius: 15px;
 }
 #applepay_container{
+	cursor: pointer;
 	height: 81px;
 	width: 106px;
 	display: flex;
@@ -1115,6 +1125,7 @@ padding-top: 10px;
 	border-radius: 15px;
 }
 #gpay_container{
+	cursor: pointer;
 	height: 81px;
 	width: 106px;
 	display: flex;
@@ -1123,6 +1134,7 @@ padding-top: 10px;
 	border-radius: 15px;
 }
 #paypal_container{
+	cursor: pointer;
 	height: 81px;
 	width: 106px;
 	display: flex;
@@ -1131,6 +1143,7 @@ padding-top: 10px;
 	border-radius: 15px;
 }
 #amazonpay_container{
+	cursor: pointer;
 	height: 81px;
 	width: 106px;
 	display: flex;
@@ -1139,6 +1152,7 @@ padding-top: 10px;
 	border-radius: 15px;
 }
 #billind_and_card_info_container{
+	
 	margin-right: 15%;
 	margin-left: 15%;
 	display: flex;
@@ -1188,6 +1202,7 @@ select{
 	padding-bottom: 40px;
 }
 #continue button{
+	cursor: pointer;
 	color: white;
 	background-color:#2699FB;
 	font-family: "Montserrat",sans-serif;
@@ -1254,6 +1269,7 @@ background-color: #7FC02B;
 	margin-top: -60px;
 }
 #continue_btn{
+	cursor: pointer;
 	font-family: "Montserrat",sans-serif;
 	font-size: 40;
 	font-size: 25px;
